@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Draken</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/draken.svg" alt="logo do site" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Carros</li>
+          <li>Fale Conosco</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container">
+      <div class="list">
+        <div class="item active">
+          <div class="car-img">
+            <img src="./img/1.png" alt="imagem carro" />
+          </div>
+          <div class="conteudo-carro">
+            <p class="informacoes-do-carro">Único dono</p>
+            <h2>911 Turbo</h2>
+            <p class="descricao-detalhada-do-carro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              delectus fugit! Earum laboriosam molestiae hic accusamus! Eius
+              exercitationem nam, maxime doloremque quisquam expedita doloribus
+              tempore alias earum velit ullam molestias.
+            </p>
+            <button class="information">Saiba mais</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="car-img">
+            <img src="./img/2.png" alt="imagem carro" />
+          </div>
+          <div class="conteudo-carro">
+            <p class="informacoes-do-carro">Conversível</p>
+            <h2>Ferrari</h2>
+            <p class="descricao-detalhada-do-carro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              delectus fugit! Earum laboriosam molestiae hic accusamus! Eius
+              exercitationem nam, maxime doloremque quisquam expedita doloribus
+              tempore alias earum velit ullam molestias.
+            </p>
+            <button class="information">Saiba mais</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="car-img">
+            <img src="./img/3.png" alt="imagem carro" />
+          </div>
+          <div class="conteudo-carro">
+            <p class="informacoes-do-carro">2015</p>
+            <h2>Lamborghini</h2>
+            <p class="descricao-detalhada-do-carro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+              delectus fugit! Earum laboriosam molestiae hic accusamus! Eius
+              exercitationem nam, maxime doloremque quisquam expedita doloribus
+              tempore alias earum velit ullam molestias.
+            </p>
+            <button class="information">Saiba mais</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="setas">
+        <button id="anterior"><img src="./img/seta.svg" alt="seta esquerda" /></button>
+        <button id="próximo"><img src="./img/seta.svg" alt="seta direita" /></button>
+      </div>
+
+      <div class="indicadores">
+        <div class="numeros">01</div>
+        <ul>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
